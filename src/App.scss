@@ -1,0 +1,139 @@
+/* Hero */
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+@keyframes leftRight {
+  0% {
+    left: -100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+#hero {
+  background-color: var(--grewLight);
+  padding: 8rem 0;
+  max-height: 108rem;
+}
+
+.container {
+  position: relative;
+  max-width: 120rem;
+
+  margin: 0 auto;
+}
+
+.hero-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    animation: fadein 0.5s ease;
+
+    .hero-img {
+      margin: 0 auto;
+      object-fit: contain;
+      height: 60rem;
+      max-width: 80rem;
+    }
+  }
+  .hero-contents {
+    align-self: center;
+    animation: fadein 0.3s ease;
+
+    h2 {
+      color: #b758ff;
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      margin-bottom: 2rem;
+    }
+    .discount {
+      color: #fbb420;
+    }
+    h1 {
+      span {
+        color: #253b75;
+        font-size: 7rem;
+        font-weight: 700;
+        display: block;
+        line-height: 1;
+        text-shadow: 3px 3px 0 #f1f1f1, 4px 4px 0 #f1f1f1;
+        margin-bottom: 1rem;
+      }
+    }
+    p {
+      margin-left: 1rem;
+    }
+  }
+}
+
+.left-arrow {
+  position: absolute;
+  color: white;
+  font-size: 5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -10%;
+  cursor: pointer;
+}
+.right-arrow {
+  position: absolute;
+  color: white;
+  font-size: 5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -10%;
+  cursor: pointer;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #fc7c7c;
+  font-size: 2rem;
+  padding: 1.2rem 4rem;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 2rem;
+  border-radius: 2rem;
+}
+
+// corousel-bottom-dot
+.carousel-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem 0 0 0;
+  p:hover {
+    cursor: pointer;
+  }
+}
+.carousel-circle {
+  margin-right: 0.5rem;
+  font-size: 1.8rem;
+  color: white;
+}
+.carousel-circle.active {
+  color: #000;
+}
+
+.currentMinus {
+  transform: translateX(-100%);
+}
+.currnetPlus {
+  transform: translateX(100%);
+}
+
+.passive {
+  display: none;
+}
