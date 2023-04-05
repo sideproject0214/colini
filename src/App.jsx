@@ -21,7 +21,11 @@ function App() {
   useEffect(() => {
     axios
       .get("/posts")
-      .then(({ data }) => setPosts(data))
+      .then((babo) => {
+        console.log(babo);
+        const { data } = babo;
+        return setPosts(data);
+      })
       .catch((error) => console.log(error));
   }, []);
 
@@ -39,10 +43,7 @@ function App() {
               <div className="hero-contents">
                 {post.sale ? (
                   <h2>
-                    <span className="discount">
-                      {post.sale ? post.sale : ""}%
-                    </span>{" "}
-                    SUPER SALE
+                    <span className="discount">{post.sale}%</span> SUPER SALE
                   </h2>
                 ) : (
                   ""
