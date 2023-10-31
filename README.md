@@ -18,7 +18,8 @@
 
 ### 2023.6월(예정) ※ Node Fullstack Guide와 동시 오픈 예정
 
-### 인프런(확정), Udemy(예정) 등
+### 인프런 
+ - Colini 웹개발 가이드 : <https://inf.run/2tBp8>
 
 ---
 
