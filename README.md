@@ -1,28 +1,9 @@
 # [Intro] Node Fullstack Guide 코린이
 
-## 1. 자료 문서화
-
-### [1차] 2022.12.29. ~ 2023.1.26.
-
-### [2차] 2023.2.9. ~ 2023.2.11.
-
----
-
-## 2. 녹화 및 편집
-
-### 2023.1.27. ~ 2023.3.31.(완료)
-
----
-
-## 3. 강의 오픈
-
-### 2023.6월(예정) ※ Node Fullstack Guide와 동시 오픈 예정
-
 ### 인프런 
  - Colini 웹개발 가이드 : <https://inf.run/2tBp8>
-
+ - Node FullStack 개발 가이드 : <https://inf.run/QQLq7>
+ - Terraform 배포 가이드 : <https://inf.run/2GAGp>
+ - Node FullStack 개발 로드맵, A~Z까지 : <https://www.inflearn.com/roadmaps/731>
 ---
 
-## 4. 강의 교재 오픈
-
-### 강의와 동시에 오픈예정(PPT)
