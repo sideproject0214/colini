@@ -1,6 +1,6 @@
 # [Intro] Node Fullstack Guide 코린이
 
-### 인프런 
+### 인프런 강의
  - Colini 웹개발 가이드 : <https://inf.run/2tBp8>
  - Node FullStack 개발 가이드 : <https://inf.run/QQLq7>
  - Terraform 배포 가이드 : <https://inf.run/2GAGp>
